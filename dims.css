@@ -25,7 +25,7 @@ https://github.com/dsatriia/simple-web-portofolio/
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    top: 155px;
+    top: 140px;
     /* left: -200px; */
     background-image: url('bulu.jpeg');
     background-size: cover;
@@ -33,7 +33,12 @@ https://github.com/dsatriia/simple-web-portofolio/
     height: 180px;
     border-radius: 50%;
     border: 3px solid white;
+    transition: 1s;
 
+}
+
+.foto:hover {
+    transform: scale(1.2);
 }
 
 body {
@@ -90,7 +95,6 @@ body {
     text-align: center;
     font-variant: small-caps;
     font-weight: bold;
-    
 }
 
 #p2 {
@@ -99,6 +103,11 @@ body {
     font-weight: bold;
     font-size: 230%;
     margin: 0;
+    transition: 1s;
+}
+
+#p2:hover {
+    transform: scale(1.2);
 }
 
 #p3 {
@@ -106,7 +115,6 @@ body {
     text-align: center; 
     /* font-size: 120%; */
     margin-top: 10px;
-
 }
 
 .main2 {
@@ -117,13 +125,20 @@ body {
     padding: 30px;
     margin: auto;
     top: 170px;
+    
 }
+
+#p4:hover {
+    transform: scale(1.05);
+}
+
 #p4 {
     /* color: white; */
     font-family: Arial, Helvetica, sans-serif;
     /* padding: 10px; */
     margin: 0;
     text-align: center;
+    transition: 1s;
 }
 
 #glad {
@@ -138,6 +153,11 @@ body {
     position: relative;
     font-size: 120%;
     left: 300px;
+    transition: 1s;
+}
+
+#glad:hover {
+    transform: scale(1.2);
 }
 
 .main3 {
@@ -173,6 +193,7 @@ body {
 textarea:focus, input:focus{
     outline: none;
 }
+
 #kirim {
     background-color: lightsalmon;
     font-family: Arial, Helvetica, sans-serif;
@@ -185,3 +206,4 @@ textarea:focus, input:focus{
     background-color: #7a4f06;
     color: white;    
 }
+
